@@ -1,0 +1,14 @@
+{
+  "name": "@alura/design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^6.0.7"
+  }
+}
