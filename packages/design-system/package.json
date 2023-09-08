@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "styled-components": "^6.0.7"
+  },
+  "devDependencies": {
+    "@alura/tsconfig-commons":"*"
   }
 }
