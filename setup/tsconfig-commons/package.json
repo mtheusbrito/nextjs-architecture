@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "echo 'Not implemented'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "files": [
     "base.json"
-  ]
+  ],
+  "devDependencies": {
+    "@alura/eslint-commons": "*"
+  }
 }

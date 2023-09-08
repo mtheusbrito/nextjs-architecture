@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint './**/*.{ts,tsx}'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
 
   "devDependencies": {
-    "@alura/tsconfig-commons":"*"
+    "@alura/tsconfig-commons":"*",
+    "@alura/eslint-commons": "*"
   }
 }

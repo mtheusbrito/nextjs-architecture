@@ -7,22 +7,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint './**/*.{ts,tsx}'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "styled-components": "^6.0.7",
+   
     "@alura/design-system": "*",
     "@alura/utils": "*",
     "next": "^13.4.19",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@alura/tsconfig-commons":"*",
+    "react-dom": "^18.2.0",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^10.0.1"
+  },
+  "devDependencies": {
+    "@alura/tsconfig-commons": "*",
+    "@alura/eslint-commons": "*"
   }
 }
