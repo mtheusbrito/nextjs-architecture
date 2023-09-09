@@ -15,12 +15,17 @@
     "build:web-public":"yarn web-public build",
     "start:web-public":"yarn web-public start",
     "lint:web-public":"yarn web-public lint",
-    "design-system": "yarn workspace @alura/web-public"
+    "design-system": "yarn workspace @alura/web-public",
+   
+    "utils": "yarn workspace @alura/utils",
+    "test:utils": "yarn utils test"
+
 
   },
   "devDependencies": {
     "eslint": "8.14.0",
     "prettier": "2.6.2",
+    "@types/jest": "27.5.0",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "@types/node": "20.5.9",
