@@ -4,7 +4,15 @@ import {
   DefaultTheme,
   createGlobalStyle,
 } from "styled-components";
-const GlobalStyle = createGlobalStyle``;
+const GlobalStyle = createGlobalStyle`
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: border-box;
+  }
+
+`;
 const theme: DefaultTheme = {
   colors: {
     primary: "#111",

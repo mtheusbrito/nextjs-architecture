@@ -15,12 +15,17 @@
     "build:web-public":"yarn web-public build",
     "start:web-public":"yarn web-public start",
     "lint:web-public":"yarn web-public lint",
+    "test:web-public":"yarn web-public test",
+
    
     "design-system": "yarn workspace @alura/design-system",
     "test:design-system": "yarn design-system test",
 
     "utils": "yarn workspace @alura/utils",
-    "test:utils": "yarn utils test"
+    "test:utils": "yarn utils test",
+
+    "test-commons": "yarn workspace @alura/test-commons",
+    "add:dev:test-commons": "yarn test-commons add --dev"
 
 
   },
